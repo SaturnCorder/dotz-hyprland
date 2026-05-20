@@ -37,4 +37,4 @@ original creator [end-4](https://github.com/end-4) and everyone who helped. go s
 <div>
 <small> completely useless numbers (thanks grandma) </small>
 </div>
-[starchart](https://starchart.cc/SaturnCorder/dotz-hyprland)
+[![Stargazers over time](https://starchart.cc/SaturnCorder/dotz-hyprland.svg?variant=adaptive)](https://starchart.cc/SaturnCorder/dotz-hyprland)
