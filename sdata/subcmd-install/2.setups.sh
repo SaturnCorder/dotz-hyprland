@@ -48,6 +48,8 @@ if [[ ! -z $(systemctl --version) ]]; then
     fi
   fi
   v sudo systemctl enable bluetooth --now
+  ## Other init system support. These require elogind (kind of a compatibility layer). Install it.
+  # openrc
 elif [[ ! -z $(openrc --version) ]]; then
   v bash -c "echo 'modules=i2c-dev' | sudo tee -a /etc/conf.d/modules"
   v sudo rc-update add modules boot
@@ -56,6 +58,11 @@ elif [[ ! -z $(openrc --version) ]]; then
 
   x sudo rc-service ydotool start
   x sudo rc-service bluetooth start
+  # dinit
+elif command -v dinitctl >/dev/null 2>&1; then
+  v bash -c "echo 'i2c-dev' | sudo tee -a /etc/modules"
+  v sudo dinitctl enable ydotool
+  v sudo dinitctl enable bluetooth
 else
   printf "${STY_RED}"
   printf "====================INIT SYSTEM NOT FOUND====================\n"
