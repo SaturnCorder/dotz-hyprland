@@ -5,9 +5,9 @@
 
 <div align="center"> 
 
-![](https://img.shields.io/github/last-commit/SaturnCorder/dotz-hyprland?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/stars/SaturnCorder/dotz-hyprland?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/repo-size/SaturnCorder/dotz-hyprland?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/last-commit/Corderstriker/dotz-hyprland?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/Corderstriker/dotz-hyprland?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/repo-size/Corderstriker/dotz-hyprland?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
 
 </div>
 
@@ -24,7 +24,7 @@ it's purely personal, so **please don't submit issues here**. if something's bro
 **installation**
 
 ```bash
-git clone https://github.com/SaturnCorder/dotz-hyprland.git ~/.config/dotz-hyprland
+git clone https://github.com/Corderstriker/dotz-hyprland.git ~/.config/dotz-hyprland
 cd ~/.config/dotz-hyprland
 ./setup install
 ```
@@ -37,4 +37,4 @@ original creator [end-4](https://github.com/end-4) and everyone who helped. go s
 <div>
 <small> completely useless numbers (thanks grandma) </small>
 </div>
-[![Stargazers over time](https://starchart.cc/SaturnCorder/dotz-hyprland.svg?variant=adaptive)](https://starchart.cc/SaturnCorder/dotz-hyprland)
+[![Stargazers over time](https://starchart.cc/Corderstriker/dotz-hyprland.svg?variant=adaptive)](https://starchart.cc/Corderstriker/dotz-hyprland)
